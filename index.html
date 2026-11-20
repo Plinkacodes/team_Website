@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal developer portfolio of Oketch Pauline, a Computer Science student learning web technologies.">
+  <title>Home | Oketch Pauline</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">OP<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">CSC 216 · Web Technologies</p>
+          <h1>Learning, building and growing one line of code at a time.</h1>
+          <p class="lead">Hello, I'm Oketch Pauline, a Computer Science student developing practical skills in HTML, CSS and JavaScript. This portfolio shares my learning journey and the projects I create along the way.</p>
+          <a class="button" href="projects.html">Explore my projects</a>
+        </div>
+        <div class="profile-frame">
+          <img src="images/oketch-pauline-profile.png" alt="Professional profile portrait of Oketch Pauline">
+          <p class="profile-caption">Oketch Pauline <span>Computer Science Student</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" aria-labelledby="about-heading">
+      <p class="eyebrow">A little about me</p>
+      <h2 id="about-heading">Meet the developer</h2>
+      <div class="about-card card">
+        <div class="avatar" aria-hidden="true">OP</div>
+        <div>
+          <h3>Oketch Pauline</h3>
+          <p class="role">Student Developer · Front-end learner</p>
+          <p>I enjoy learning how websites are structured, styled and made interactive. My goal is to keep improving through practice, curiosity and solving real problems with technology.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" aria-labelledby="skills-heading">
+      <p class="eyebrow">My learning focus</p>
+      <h2 id="skills-heading">What I am learning</h2>
+      <ul class="skill-list">
+        <li><strong>HTML</strong> gives web pages structure and meaning.</li>
+        <li><strong>CSS</strong> makes pages attractive, responsive and easier to use.</li>
+        <li><strong>JavaScript</strong> adds behaviour and interactivity to websites.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© <span id="year">2026</span> Oketch Pauline · CSC 216 Web Technologies</p></div>
+  </footer>
+</body>
+</html>
